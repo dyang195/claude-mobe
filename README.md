@@ -2,13 +2,12 @@
 
 *Like Claude Code, but Moby*
 
-A Claude Code plugin that plays the Moby robot sound (from Tim and Moby) as a ping/reminder. Features "every token mode" (Moby sound on every token) and "deep fried mode" (distorted Moby sounds).
+A Claude Code plugin that plays Moby (from Tim and Moby)'s robot sound as a ping/reminder. Features "every token mode" (mobe on every token) and "deep fried mode" (distorted mobing).
 
-## When It Mobes (beep sound)
+## When does it Mobe (beep)
 
 **One Mobe** (needs your input):
 - **Permission prompt** - Claude needs your approval
-- **Idle prompt** - Claude's been waiting 60+ seconds
 
 **Two Mobes** (complete/done):
 - **Finished responding** - Claude's done talking
@@ -18,7 +17,7 @@ A Claude Code plugin that plays the Moby robot sound (from Tim and Moby) as a pi
 ## Requirements
 
 - macOS (uses `afplay` for audio playback)
-- `jq` for JSON parsing: `brew install jq`
+- `jq` (optional) - only needed for `/mobe-every-token` and `/mobe-deep-fried` commands: `brew install jq`
 
 ## Installation
 
@@ -36,11 +35,6 @@ Install permanently so it loads automatically every session:
 /plugin marketplace add dyang195/claude-mobe
 /plugin install claude-mobe@claude-mobe
 ```
-
-### Add Sound Files (Required)
-The plugin needs sound files to work properly. See `sounds/README.md` for instructions on getting the Moby sounds from YouTube.
-
-Without sound files, the plugin falls back to the system Ping sound.
 
 ## Commands
 
