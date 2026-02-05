@@ -31,7 +31,7 @@ claude --plugin-dir ~/.claude/plugins/claude-mobe
 
 Note: `--plugin-dir` loads the plugin for the current session only. It won't appear in `plugin list`.
 
-### Option 2: Permanent Install (via Marketplace)
+### [COMING SOON] Option 2: Permanent Install (via Marketplace) 
 Install permanently so it loads automatically every session. Run these inside Claude Code:
 
 1. Add the marketplace:
