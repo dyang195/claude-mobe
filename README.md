@@ -22,17 +22,19 @@ A Claude Code plugin that plays the Moby robot sound (from Tim and Moby) as a pi
 
 ## Installation
 
-### Option 1: Install via Marketplace
-Add the marketplace and install the plugin:
-```bash
-/plugin marketplace add dyang195/claude-mobe
-/plugin install claude-mobe@claude-mobe
-```
-
-### Option 2: Clone and Run Locally
+### Option 1: Quick Start (Try It Out)
+Clone and run with the plugin loaded for this session:
 ```bash
 git clone https://github.com/dyang195/claude-mobe.git ~/.claude/plugins/claude-mobe
 claude --plugin-dir ~/.claude/plugins/claude-mobe
+```
+Note: `--plugin-dir` loads the plugin for the current session only. It won't appear in `plugin list`.
+
+### Option 2: Permanent Install (via Marketplace)
+Install permanently so it loads automatically every session:
+```bash
+/plugin marketplace add dyang195/claude-mobe
+/plugin install claude-mobe@claude-mobe
 ```
 
 ### Add Sound Files (Required)
