@@ -1,0 +1,9 @@
+{
+  "name": "claude-mobe",
+  "version": "1.0.0",
+  "description": "Like Claude Code, but Moby - plays Moby from Tim and Moby's robot noise when as you interact with Claude",
+  "author": {
+  "name": "David Yang"
+  },
+  "homepage": "https://github.com/dyang195/claude-mobe"
+}

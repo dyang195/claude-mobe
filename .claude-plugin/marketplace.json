@@ -1,0 +1,25 @@
+{
+  "name": "claude-mobe",
+  "owner": {
+    "name": "David Yang"
+  },
+  "metadata": {
+    "description": "Moby robot sounds for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "claude-mobe",
+      "source": "./",
+      "description": "Plays Moby robot sounds (from Tim and Moby) as you interact with Claude. Features chaos mode and deep-fried audio.",
+      "version": "1.0.0",
+      "author": {
+        "name": "David Yang"
+      },
+      "homepage": "https://github.com/dyang195/claude-mobe",
+      "repository": "https://github.com/dyang195/claude-mobe",
+      "license": "MIT",
+      "keywords": ["sound", "notification", "audio", "fun"],
+      "category": "productivity"
+    }
+  ]
+}
