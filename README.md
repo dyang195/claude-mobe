@@ -17,14 +17,14 @@ A Claude Code plugin that plays Moby (from Tim and Moby)'s robot sound as a ping
 ## I wanna Claude Mobe
 
 ### Option 1: Quick Start (Try It Out)
-Run in your terminal:
+Clone and run with the plugin loaded for this session. Run in your terminal:
 1. `git clone https://github.com/dyang195/claude-mobe.git ~/.claude/plugins/claude-mobe`
 2. `claude --plugin-dir ~/.claude/plugins/claude-mobe`
 
 Note: `--plugin-dir` loads the plugin for the current session only. It won't appear in `plugin list`.
 
 ### Option 2: Permanent Install (via Marketplace)
-Run inside Claude Code:
+Install permanently so it loads automatically every session. Run inside Claude Code:
 1. `/plugin marketplace add dyang195/claude-mobe`
 2. `/plugin install claude-mobe@claude-mobe`
 
