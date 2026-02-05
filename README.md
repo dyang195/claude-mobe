@@ -29,19 +29,11 @@ Add the marketplace and install the plugin:
 /plugin install claude-mobe@claude-mobe
 ```
 
-### Option 2: Clone and Install Locally
-Clone the repo and add it as a local marketplace:
-```bash
-git clone https://github.com/dyang195/claude-mobe.git ~/.claude/plugins/claude-mobe
-/plugin marketplace add ~/.claude/plugins/claude-mobe
-/plugin install claude-mobe@claude-mobe
-```
-
-### Option 3: Development Mode
-For plugin development, use the plugin-dir flag:
+### Option 2: Local Testing
+Clone and run with the `--plugin-dir` flag:
 ```bash
 git clone https://github.com/dyang195/claude-mobe.git
-claude --plugin-dir /path/to/claude-mobe
+claude --plugin-dir ./claude-mobe
 ```
 
 ### Add Sound Files (Required)
